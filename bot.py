@@ -10,3 +10,4 @@ def start(message):
     bot.send_message(message.chat.id, "Привет! Бот работает 🚀")
 
 bot.polling()
+pyTelegramBotAPI
