@@ -1,7 +1,6 @@
-8663322759:AAHbU0hf9fCPxP65oVAqpkXEoqJBO10WYfQ
 import telebot
 
-TOKEN = "ТУТ_НОВЫЙ_ТОКЕН"
+TOKEN =8663322759:AAH3H8m-fk95x4CqcOyofmtL9KVyrR8ny5Q
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -10,4 +9,3 @@ def start(message):
     bot.send_message(message.chat.id, "Привет! Бот работает 🚀")
 
 bot.polling()
-
